@@ -18,7 +18,7 @@ import {
 } from './utils';
 
 // Import komponen Merchant Simulator
-import MerchantSimulator from './components/MerchantSimulator';
+import MerchantSimulator from './components/MerchantSimulator.jsx';
 
 export default function App() {
   const [data, setData] = useState([]);
