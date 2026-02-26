@@ -15,7 +15,7 @@ import {
 import {
   cleanNumber, formatCurrency, formatMonth, COLORS, getMerchantSegment,
   saveToIndexedDB, loadFromIndexedDB, fNum
-} from './utils';
+} from './utils.jsx'; // <-- pastikan ada .jsx di sini
 
 // Import komponen Merchant Simulator
 import MerchantSimulator from './components/MerchantSimulator.jsx';
